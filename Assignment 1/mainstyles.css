@@ -1,12 +1,12 @@
 @charset "utf-8";
 body {
-	padding: 1em;
-	margin: 1em;
+	margin-top: 1em;
+	margin-right: 1em;
+	margin-left: 1em;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	min-width: 650px;
 	background-color: #CFEDC8;
-	max-height: 766px;
-	display: inline-block;
+	padding: 1em;
+	margin-bottom: 1em;
 }
 
 
@@ -24,6 +24,14 @@ body {
 
 #header table  {
 	height: 200px;
+	text-align: center;
+}
+
+.content  {
+	border-radius: 50px;
+	background-color: #F9F9C1;
+	border: thin solid #000000;
+	margin: 10px;
 	text-align: center;
 }
 
@@ -48,39 +56,6 @@ body {
 	font-weight: bolder;
 	font-size: large;
 }
-.leaderBoard    {
-	border-radius: 20px;
-
-
-}
-.leaderBoard td {
-	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(1,1,1,1.00) 100%);
-	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(1,1,1,1.00) 100%);
-	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(1,1,1,1.00) 100%);
-	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(1,1,1,1.00) 100%);
-	width: 50%;
-}
-.leaderBoard tr {
-	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(1,1,1,1.00) 100%);
-	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(1,1,1,1.00) 100%);
-	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(1,1,1,1.00) 100%);
-	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(1,1,1,1.00) 100%);
-	width: 50%;
-}
-
-
-
-#contentSignUp {
-	text-align: center;
-}
-
-.content  {
-	border-radius: 50px;
-	background-color: #F9F9C1;
-	border: thin solid #000000;
-	margin: 10px;
-	text-align: center;
-}
 
 .contentHeading  {
 	background-color: #CAD88D;
@@ -88,14 +63,58 @@ body {
 	padding: 20px;
 	border-radius: 20px;
 	font-variant: small-caps;
-	margin-top: 50px;
+	width: 50%;
+	display: inline-block;
 }
 
+
+
+
 #main td {
-	width: 33%;
+	width: 30%;
 	vertical-align: top;
-	padding: 5px;
-	text-align: left;
+	text-align: center;
+}
+#contentImage {
+	margin-top: 40px;
+}
+
+tr td img {
+	border-radius: 50px;
+}
+#leaderboard   {
+	max-width: 880px;
+	border-radius: 30px;
+	min-width: 880px;
+	padding: 10px;
+	border: thin double #000000;
+	float: none;
+	margin-bottom: 20px;
+	display: inline-table;
+}
+#leaderboard th {
+	display: table-cell;
+	max-width: 80px;
+	min-width: 80px;
+	border-radius: 30px;
+	border: thin solid #030303;
+}
+
+
+#leaderboard td {
+	min-width: 80px;
+	max-width: 80px;
+
+
+
+
+}
+
+
+
+
+#contentSignUp {
+	text-align: center;
 }
 
 
@@ -104,7 +123,7 @@ h1 {
 	font-style: normal;
 	font-variant: small-caps;
 	font-weight: 800;
-	font-size: 40px;
+	font-size: 60px;
 }
 
 
@@ -135,8 +154,19 @@ h4 {
 
 p {
 	font-size: large;
-	min-height: 0px;
-	min-width: 30%;
+	min-width: 25%;
+	margin: 10px;
 	padding: 10px;
-	text-align: left;
+	text-align: center;
+}
+.announcements {
+	color: #001CF8;
+}
+.pageLinks {
+	color: #0503A2;
+	font-weight: bold;
+	padding: 10px;
+	font-size: large;
+
+
 }
